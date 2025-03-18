@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int arr[];
+    int arr[5];
     int n = sizeof(arr)/4;
     for(int i=0;i<=n;i++){
         scanf("%d",arr[i]);
@@ -14,6 +14,6 @@ int main(){
         count1 = count1 + 1;
     }
     printf("%d",count);
-    pprintf(" %d",count1);
+    printf(" %d",count1);
     return 0;
 }
