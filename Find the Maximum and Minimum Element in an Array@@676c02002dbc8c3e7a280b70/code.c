@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&size);
     int arr[size];
     for(int i=0;i<size;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
     }
     int mx = INT_MIN;
     int n = sizeof(arr)/sizeof(arr[0]);
