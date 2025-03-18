@@ -12,14 +12,10 @@ int main(){
     for(int i=0;i<n;i++){
         if(mx<arr[i]) mx = arr[i];
     }
-    printf("%d",mx);
-
     int mn = INT_MAX;
     for(int i=0;i<n;i++){
         if(mn>arr[i]) mn = arr[i];
     }
-    printf(" %d",mn);
-
-
-
+    printf("%d",mx);
+    printf("%d",mn);
 }
