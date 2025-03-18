@@ -18,7 +18,7 @@ int main(){
     for(int i=1;i<n;i++){
         if(mn>arr[i]) mn = arr[i];
     }
-    printf("%d",mn);
+    printf(" %d",mn);
 
 
 
