@@ -17,5 +17,5 @@ int main(){
         if(mn>arr[i]) mn = arr[i];
     }
     printf("%d",mx);
-    printf("%d",mn);
+    printf(" %d",mn);
 }
