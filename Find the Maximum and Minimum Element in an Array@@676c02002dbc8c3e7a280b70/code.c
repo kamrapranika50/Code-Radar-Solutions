@@ -7,7 +7,8 @@ int main(){
     for(int i=0;i<size;i++){
         scanf("%d",arr[i]);
     }
-    int mx = INT_MAIN;
+    int mx = INT_MIN;
+    int n = sizeof(arr)/sizeof(arr[0]);
     for(int i=1;i<n;i++){
         if(mx<arr[i]) mx = arr[i];
     }
