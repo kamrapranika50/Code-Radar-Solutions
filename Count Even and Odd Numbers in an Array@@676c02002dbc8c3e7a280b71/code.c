@@ -7,7 +7,7 @@ int main(){
     }
     int count = 0;
     int count1 = 0;
-    if((arr[i]) %2 == 0){
+    if(arr[i] %2 == 0){
         count = count + 1;
     }
     else{
