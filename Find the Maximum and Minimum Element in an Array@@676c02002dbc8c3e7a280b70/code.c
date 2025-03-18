@@ -9,13 +9,13 @@ int main(){
     }
     int mx = INT_MIN;
     int n = sizeof(arr)/sizeof(arr[0]);
-    for(int i=1;i<n;i++){
+    for(int i=0;i<n;i++){
         if(mx<arr[i]) mx = arr[i];
     }
     printf("%d",mx);
 
     int mn = INT_MAX;
-    for(int i=1;i<n;i++){
+    for(int i=0;i<n;i++){
         if(mn>arr[i]) mn = arr[i];
     }
     printf(" %d",mn);
