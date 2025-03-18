@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<limits.h>
 int main(){
-    int size;
-    scanf("%d",&size);
-    int arr[size];
-    for(int i=0;i<size;i++){
+    int number;
+    scanf("%d",&number);
+    int arr[number];
+    for(int i=0;i<number;i++){
         scanf("%d",&arr[i]);
     }
     int mx = INT_MIN;
